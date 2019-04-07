@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Comparador e Conversor</string>
+    <string name="embalagem1">Embalagem1</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="embalagem2">Embalagem2</string>
+    <string name="calcular">Calcular</string>
+    <string name="preco">Preço</string>
+    <string name="unidade">Unidade</string>
+    <string name="resultado">Resultado</string>
+    <string name="doismais">Produto embalagem 2 mais barato</string>
+    <string name="ummais">Produto embalagem 1 mais barato</string>
+    <string name="iguais">Produtos com preços iguais</string>
+    <string name="converter">Converter unidades</string>
+    <string name="comparador">Comparador</string>
+    <string name="conversor">Conversor unidades</string>
+    <string name="spinner_title">Unidade</string>
+    <string name="naopossivel">Não é possível converter essas duas unidades de medidas</string>
+    <string-array name="Unidade_medida">
+        <item>Kg</item>
+        <item>g</item>
+        <item>l</item>
+        <item>ml</item>
+    </string-array>
+
+</resources>

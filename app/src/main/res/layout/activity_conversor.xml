@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConversorActivity">
+
+    <TextView
+        android:id="@+id/labelUnidade"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/unidade" />
+
+    <Spinner
+        android:id="@+id/spiUnidade"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/labelUnidade"
+        android:prompt="@string/spinner_title"
+        />
+
+    <EditText
+        android:id="@+id/TextConverter"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/spiUnidade"
+        android:digits="01234567890." />
+
+    <Spinner
+        android:id="@+id/spiUnidade2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TextConverter"
+        android:prompt="@string/spinner_title"
+        />
+
+    <Button
+        android:id="@+id/botaoConverter"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/spiUnidade2"
+        android:onClick="converterNum"
+        android:text="@string/converter"
+        />
+
+    <TextView
+        android:id="@+id/labelResultado"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/botaoConverter"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComparadorActivity">
+
+
+    <TextView
+        android:id="@+id/labelEmbalagem1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/embalagem1" />
+
+    <TextView
+        android:id="@+id/labelEmbalagem2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/labelEmbalagem1"
+        android:text="@string/embalagem2" />
+
+    <TextView
+        android:id="@+id/labelPreco1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/labelEmbalagem1"
+        android:text="@string/preco" />
+
+    <TextView
+        android:id="@+id/labelPreco2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/labelEmbalagem2"
+        android:layout_toRightOf="@id/labelPreco1"
+        android:text="@string/preco" />
+
+    <EditText
+        android:id="@+id/TextPreco1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/labelPreco1"
+        android:digits="01234567890." />
+
+    <EditText
+        android:id="@+id/TextPreco2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/labelPreco2"
+        android:layout_toRightOf="@id/TextPreco1"
+        android:digits="01234567890." />
+
+    <TextView
+        android:id="@+id/labelQuantidade1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TextPreco1"
+        android:text="@string/quantidade" />
+
+    <TextView
+        android:id="@+id/labelQuantidade2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TextPreco2"
+        android:layout_toRightOf="@id/labelQuantidade1"
+        android:text="@string/quantidade" />
+
+    <Spinner
+        android:id="@+id/spiQuantidade1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/labelQuantidade1" />
+
+    <Spinner
+        android:id="@+id/spiQuantidade2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/labelQuantidade2"
+        android:layout_toRightOf="@id/spiQuantidade1" />
+
+    <EditText
+        android:id="@+id/TextQuantidade1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/spiQuantidade1"
+        android:digits="01234567890" />
+
+    <EditText
+        android:id="@+id/TextQuantidade2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/spiQuantidade2"
+        android:layout_toRightOf="@id/TextQuantidade1"
+        android:digits="01234567890" />
+
+    <Button
+        android:id="@+id/botaoCalcular"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TextQuantidade1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/calcular" />
+
+    <TextView
+        android:id="@+id/TextResultado"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/botaoCalcular"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

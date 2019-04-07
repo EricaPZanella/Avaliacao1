@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Comparador e Conversor</string>
+    <string name="calcular" translatable="false">Calcular</string>
+    <string name="embalagem1" translatable="false">Embalagem1</string>
+    <string name="embalagem2" translatable="false">Embalagem2</string>
+    <string name="preco" translatable="false">Preço</string>
+    <string name="quantidade" translatable="false">Quantidade</string>
+    <string name="unidade">Unidade</string>
+    <string name="resultado">Resultado</string>
+    <string name="doismais">Produto embalagem 2 mais barato</string>
+    <string name="ummais">Produto embalagem 1 mais barato</string>
+    <string name="iguais">Produtos com preços iguais</string>
+    <string name="converter">Converter unidades</string>
+    <string name="conversor">Conversor unidades</string>
+    <string name="comparador">Comparador</string>
+    <string name="spinner_title">Unidade</string>
+    <string name="naopossivel">Não é possível converter essas duas unidades de medidas</string>
+</resources>

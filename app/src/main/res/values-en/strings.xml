@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Comparator and Converter</string>
+    <string name="calcular" translatable="false">Calculate</string>
+    <string name="embalagem1" translatable="false">Packing1</string>
+    <string name="embalagem2" translatable="false">Packing2</string>
+    <string name="preco" translatable="false">Price</string>
+    <string name="quantidade" translatable="false">Amount</string>
+    <string name="ummais">Product package 1 cheaper</string>
+    <string name="resultado">Result</string>
+    <string name="unidade">Unit</string>
+    <string name="doismais" translatable="false">Product package 2 cheaper</string>
+    <string name="converter" translatable="false">Convert units</string>
+    <string name="iguais">Products with equal prices</string>
+    <string name="conversor">Converter units</string>
+    <string name="comparador">Comparator</string>
+    <string name="spinner_title">Unidade</string>
+    <string name="naopossivel">You can not convert these two units of measurement</string>
+
+</resources>
